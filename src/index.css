@@ -345,4 +345,21 @@ img {
   .content {
     flex-direction: column;
   }
+  .product{
+    flex-direction: column;
+    max-height: 100%;
+    
+  }
+  .product__info{
+    align-items: center;
+    text-align: center;
+  }
+  .product img{
+   height: 100%;
+  }
+  .product__select{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+   }
 }

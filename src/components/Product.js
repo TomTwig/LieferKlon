@@ -21,18 +21,23 @@ function Product({ product }) {
                 <img src={product.img}></img>
             </div>
 
-            <div>
-                <button onClick={() => dispatch(setFavorite(product.id))}>
-                    {product.isFavorite && <Heart style={{ color: "red" }} fill={"red"} />}
-                    {!product.isFavorite && <Heart fill={"none"} />}
-                </button>
-            </div>
+
 
 
             <div className="product__select">
-                <button onClick={() => dispatch(increaseAmount(product.id))}><ChevronUp /></button>
-                <p>{product.amount}</p>
-                {product.amount >= 1 && <button onClick={() => dispatch(decreaseAmount(product.id))}><ChevronDown /></button>}
+
+                <div>
+                    <button onClick={() => dispatch(setFavorite(product.id))}>
+                        {product.isFavorite && <Heart style={{ color: "red" }} fill={"red"} />}
+                        {!product.isFavorite && <Heart fill={"none"} />}
+                    </button>
+                </div>
+
+                <div>
+                    <button onClick={() => dispatch(increaseAmount(product.id))}><ChevronUp /></button>
+                    <p>{product.amount}</p>
+                    {product.amount >= 1 && <button onClick={() => dispatch(decreaseAmount(product.id))}><ChevronDown /></button>}
+                </div>
             </div>
         </div>
     )
