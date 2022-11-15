@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LieferKlon/static/css/main.d9a5f3dc.css",
+    "main.js": "/LieferKlon/static/js/main.593febc0.js",
+    "static/js/787.df15affc.chunk.js": "/LieferKlon/static/js/787.df15affc.chunk.js",
+    "index.html": "/LieferKlon/index.html",
+    "main.d9a5f3dc.css.map": "/LieferKlon/static/css/main.d9a5f3dc.css.map",
+    "main.593febc0.js.map": "/LieferKlon/static/js/main.593febc0.js.map",
+    "787.df15affc.chunk.js.map": "/LieferKlon/static/js/787.df15affc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9a5f3dc.css",
+    "static/js/main.593febc0.js"
+  ]
+}
