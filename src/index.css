@@ -221,6 +221,7 @@ img {
 }
 
 .checkout {
+ 
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -232,6 +233,7 @@ img {
 }
 
 .checkout__list {
+
   flex: 1;
   height: 100%;
 }
@@ -253,6 +255,7 @@ img {
   justify-content: flex-end;
   flex: 1;
   text-align: end;
+  margin-bottom: 1em;
 
 }
 
